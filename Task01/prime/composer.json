@@ -1,0 +1,20 @@
+{
+    "name": "Aidar-555/prime",
+    "authors": [
+        {
+            "name": "Aidar-555",
+            "email": "rinatka70@mail.ru"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.7"
+    },
+    "bin": ["bin/prime"],
+    "autoload": {
+        "files": [
+            "src/Controller.php",
+            "src/View.php",
+            "src/Model.php"
+        ]
+    }
+}
